@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.miloszlewandowski
+testFramework: junit
+sourceLanguage: java
+buildTool: gradle
+features: [ annotation-api, app-name, gradle, http-client, jackson-xml, java, java-application, junit, logback, micronaut-build, microstream, netty-server, readme, serialization-jackson, shade, yaml ]
