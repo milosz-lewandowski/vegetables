@@ -1,0 +1,12 @@
+micronaut:
+  application:
+    name: vegetables
+netty:
+  default:
+    allocator:
+      max-order: 3
+microstream:
+  storage:
+    main:
+      root-class: 'com.miloszlewandowski.micronaut.VegetableContainer'
+      storage-directory: 'build/vegetables-storage'
